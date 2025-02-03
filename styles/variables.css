@@ -18,7 +18,7 @@
   --subtitle-text-color: #000028;
   --accent-color: #FF0070;
   --text-shadow-position: 2px 2px 0;
-  --page-inline-padding: 10px;
+  --page-padding: 10px;
   --page-gap: 40px;
   --section-gap: 50px;
 }
@@ -27,7 +27,7 @@
 
   :root {
     --main-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    --page-inline-padding: 20px;
+    --page-padding: 20px;
     --page-gap: 60px;
     --section-gap: 80px;
   }
