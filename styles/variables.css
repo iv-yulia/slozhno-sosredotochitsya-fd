@@ -11,12 +11,14 @@
   --bold-font-weight: 700;
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
-  --bg-text-color: #FF0070;
+  --bg-decor-color: #FF0070;
   --main-text-color: #F1B2CE;
+  --secondary-text-color: #FF0070;
   --title-color: #DB00FF;
-  --section-title-color: #FF0070;
-  --subtitle-text-color: #000028;
+  --subtitle-color: #000028;
   --accent-color: #FF0070;
+  --shadow--color: var(--accent-color);
+  --hover-effect: rgb(255 0 112 / 0.5);
   --text-shadow-position: 2px 2px 0;
   --page-padding: 10px;
   --page-gap: 40px;
