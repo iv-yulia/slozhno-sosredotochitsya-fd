@@ -5,22 +5,42 @@
 */
 
 :root.theme-light {
-  --bg-image: url(../images//cover-image-light.png);
+  --bg-image: url(../images/cover-image-light.png);
   --bg-color: #FFF1F7;
-  --bg-decor-color: #FF8DCB;
+  --decor-color: #FF8DCB;
   --main-text-color: #353430;
-  --secondary-text-color: #353430;
+  --secondary-text-color: var(--main-text-color);
   --title-color: #FFC2E6;
-  --subtitle-color: #353430;
+  --subtitle-color: var(--main-text-color);
   --accent-color: #353430;
-  --shadow--color: var(--bg-decor-color);
-  --hover-effect: rgb(255 0 112 / 0.5);
+  --shadow--color: var(--decor-color);
+  --hover-effect: rgb(50 49 45 / 0.4);
+}
+
+.theme-light .rec-element {
+  display: none;
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
-.theme-light .rec-element {
-  display: none;
+@media (prefers-color-scheme: light) {
+
+  :root {
+    --bg-image: url(../images/cover-image-light.png);
+    --bg-color: #FFF1F7;
+    --decor-color: #FF8DCB;
+    --main-text-color: #353430;
+    --secondary-text-color: var(--main-text-color);
+    --title-color: #FFC2E6;
+    --subtitle-color: var(--main-text-color);
+    --accent-color: #353430;
+    --shadow--color: var(--decor-color);
+    --hover-effect: rgb(50 49 45 / 0.4);
+  }
+
+  .theme-auto .rec-element {
+    display: none;
+  }
 }
